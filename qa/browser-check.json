@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "mode": "GDevelop HTML5 export",
+  "initial": {
+    "canvas": 1920,
+    "dialogue": 0,
+    "gold": 1000,
+    "missingIcons": 0
+  },
+  "audio": {
+    "decoded": 10,
+    "started": 1
+  },
+  "fullscreen": {
+    "active": false,
+    "enabled": true,
+    "error": "not granted",
+    "original": {
+      "active": false,
+      "error": "not granted"
+    }
+  },
+  "checks": [
+    "language screen on first launch only",
+    "English default",
+    "Russian dialogue",
+    "Russian language survives reload without picker",
+    "wave 21 resumes directly after reload",
+    "older saves without preferences skip picker",
+    "feedback UI removed",
+    "import/export controls removed",
+    "export hint removed in both languages",
+    "1920x1080 renderer",
+    "UI assets",
+    "settings pause",
+    "language change",
+    "upgrade",
+    "save/reload",
+    "preferences/reload",
+    "wave 21 skill tree",
+    "nested settings/tree pause",
+    "keyboard Esc",
+    "all 10 audio channels decode",
+    "audio playback",
+    "fullscreen matches original in test browser",
+    "800x450 resize",
+    "no external asset requests",
+    "no browser exceptions"
+  ],
+  "browserErrors": [],
+  "failures": []
+}

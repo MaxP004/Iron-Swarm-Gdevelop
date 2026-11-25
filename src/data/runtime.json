@@ -1,0 +1,61 @@
+{
+  "coin": {
+    "riseDuration": 0.45,
+    "pauseDuration": 0.15,
+    "flyDuration": 0.6,
+    "riseHeight": 1.5,
+    "spinSpeedRise": 720,
+    "spinSpeedFly": 1080,
+    "flyOffset": {
+      "x": 4,
+      "y": 8,
+      "z": 0
+    },
+    "sortingOrder": 25,
+    "sortingLayerName": "Default",
+    "scale": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    }
+  },
+  "damagePopup": {
+    "duration": 0.6,
+    "riseSpeed": 1.2,
+    "spreadAmount": 0.3,
+    "positionOffsetY": 0.3,
+    "fontSize": 4,
+    "textColor": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+    },
+    "sortingOrder": 20
+  },
+  "goldPopup": {
+    "duration": 0.8,
+    "fallSpeed": 0.8,
+    "fontSize": 4,
+    "textColor": {
+      "r": 1,
+      "g": 0.84,
+      "b": 0,
+      "a": 1
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "sortingOrder": 30
+  },
+  "attack": {
+    "attackCooldown": 1.5,
+    "pauseDuration": 0.3,
+    "backupDistance": 0.5,
+    "backupDuration": 0.15,
+    "lungeDistance": 1.3,
+    "lungeDuration": 0.2
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "Textures/Background/background": {
+    "url": "assets/Textures/Background/background.png",
+    "width": 17,
+    "height": 12,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Background/column": {
+    "url": "assets/Textures/Background/column.png",
+    "width": 34,
+    "height": 82,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Boss1": {
+    "url": "assets/Textures/Enemies/Boss1.png",
+    "width": 16,
+    "height": 48,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Boss2": {
+    "url": "assets/Textures/Enemies/Boss2.png",
+    "width": 16,
+    "height": 48,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Boss3": {
+    "url": "assets/Textures/Enemies/Boss3.png",
+    "width": 16,
+    "height": 48,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Boss4": {
+    "url": "assets/Textures/Enemies/Boss4.png",
+    "width": 16,
+    "height": 48,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Boss5": {
+    "url": "assets/Textures/Enemies/Boss5.png",
+    "width": 16,
+    "height": 48,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy1": {
+    "url": "assets/Textures/Enemies/Enemy1.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy10": {
+    "url": "assets/Textures/Enemies/Enemy10.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy2": {
+    "url": "assets/Textures/Enemies/Enemy2.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy3": {
+    "url": "assets/Textures/Enemies/Enemy3.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy4": {
+    "url": "assets/Textures/Enemies/Enemy4.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy5": {
+    "url": "assets/Textures/Enemies/Enemy5.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy6": {
+    "url": "assets/Textures/Enemies/Enemy6.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy7": {
+    "url": "assets/Textures/Enemies/Enemy7.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy8": {
+    "url": "assets/Textures/Enemies/Enemy8.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Enemies/Enemy9": {
+    "url": "assets/Textures/Enemies/Enemy9.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Armor0": {
+    "url": "assets/Textures/Player/Armor0.png",
+    "width": 24,
+    "height": 24,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Armor1": {
+    "url": "assets/Textures/Player/Armor1.png",
+    "width": 24,
+    "height": 24,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Armor12": {
+    "url": "assets/Textures/Player/Armor12.png",
+    "width": 24,
+    "height": 24,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Armor123": {
+    "url": "assets/Textures/Player/Armor123.png",
+    "width": 24,
+    "height": 24,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Sword0": {
+    "url": "assets/Textures/Player/Sword0.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Sword1": {
+    "url": "assets/Textures/Player/Sword1.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Sword12": {
+    "url": "assets/Textures/Player/Sword12.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/Player/Sword123": {
+    "url": "assets/Textures/Player/Sword123.png",
+    "width": 16,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Active1": {
+    "url": "assets/Textures/UI/Active1.png",
+    "width": 32,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Active2": {
+    "url": "assets/Textures/UI/Active2.png",
+    "width": 27,
+    "height": 33,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Active3": {
+    "url": "assets/Textures/UI/Active3.png",
+    "width": 28,
+    "height": 31,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/BarrierShield": {
+    "url": "assets/Textures/UI/BarrierShield.png",
+    "width": 32,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/ChronomancerIcon": {
+    "url": "assets/Textures/UI/ChronomancerIcon.png",
+    "width": 64,
+    "height": 64,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Coin": {
+    "url": "assets/Textures/UI/Coin.png",
+    "width": 6,
+    "height": 6,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/CoinUpgrade": {
+    "url": "assets/Textures/UI/CoinUpgrade.png",
+    "width": 9,
+    "height": 9,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Diamond": {
+    "url": "assets/Textures/UI/Diamond.png",
+    "width": 8,
+    "height": 7,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/KingIcon": {
+    "url": "assets/Textures/UI/KingIcon.png",
+    "width": 64,
+    "height": 64,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Locked": {
+    "url": "assets/Textures/UI/Locked.png",
+    "width": 25,
+    "height": 27,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/MajorPerk1": {
+    "url": "assets/Textures/UI/MajorPerk1.png",
+    "width": 46,
+    "height": 46,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/MajorPerk2": {
+    "url": "assets/Textures/UI/MajorPerk2.png",
+    "width": 46,
+    "height": 46,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/MajorPerk3": {
+    "url": "assets/Textures/UI/MajorPerk3.png",
+    "width": 46,
+    "height": 46,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/No": {
+    "url": "assets/Textures/UI/No.png",
+    "width": 21,
+    "height": 21,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Return": {
+    "url": "assets/Textures/UI/Return.png",
+    "width": 22,
+    "height": 22,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Square": {
+    "url": "assets/Textures/UI/Square.png",
+    "width": 256,
+    "height": 256,
+    "ppu": 256,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/TreeOfUpgrades": {
+    "url": "assets/Textures/UI/TreeOfUpgrades.png",
+    "width": 65,
+    "height": 64,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/TutorialPointer": {
+    "url": "assets/Textures/UI/TutorialPointer.png",
+    "width": 14,
+    "height": 24,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Upgrade": {
+    "url": "assets/Textures/UI/Upgrade.png",
+    "width": 14,
+    "height": 14,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/UpgradeDamage": {
+    "url": "assets/Textures/UI/UpgradeDamage.png",
+    "width": 32,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/UpgradeHealth": {
+    "url": "assets/Textures/UI/UpgradeHealth.png",
+    "width": 26,
+    "height": 26,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/UpgradeHealthRegen": {
+    "url": "assets/Textures/UI/UpgradeHealthRegen.png",
+    "width": 26,
+    "height": 26,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/UpgradeNumberOfBlades": {
+    "url": "assets/Textures/UI/UpgradeNumberOfBlades.png",
+    "width": 32,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/UpgradeRotationSpeed": {
+    "url": "assets/Textures/UI/UpgradeRotationSpeed.png",
+    "width": 32,
+    "height": 32,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "Textures/UI/Yes": {
+    "url": "assets/Textures/UI/Yes.png",
+    "width": 26,
+    "height": 22,
+    "ppu": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  }
+}

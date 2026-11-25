@@ -1,0 +1,177 @@
+<div id="RootContainer">
+  <div id="GameArea">
+    <div class="tutorial-arrow" id="TutDiamondArrow"></div>
+
+    <div id="TopBar">
+      <span id="WaveLabel">Wave 1/100</span>
+      <div id="CurrenciesRow">
+        <div class="currency-icon" id="GoldIcon"></div>
+        <span id="ScoreLabel">Gold: 0</span>
+        <div class="currency-icon" id="DiamondIcon"></div>
+        <span id="DiamondLabel">Diamonds: 0</span>
+      </div>
+    </div>
+
+    <div id="MajorButtonsRow">
+      <button class="major-ability-btn" id="MajorBtn_1"></button>
+      <button class="major-ability-btn" id="MajorBtn_2"></button>
+      <button class="major-ability-btn" id="MajorBtn_3"></button>
+    </div>
+
+    <div id="MenuPanel" style="display: none">
+      <div id="TreeContainer">
+        <span class="perks-header" id="PerksHeader"></span>
+        <div class="perk-tree-body">
+          <div class="perk-horizontal-row">
+            <div class="perk-group">
+              <div class="perk" id="Perk_01"></div>
+              <div class="perk" id="Perk_02"></div>
+            </div>
+            <div class="major-perk" id="Major_Perk1"></div>
+            <div class="perk-group">
+              <div class="perk" id="Perk_03"></div>
+              <div class="perk" id="Perk_04"></div>
+            </div>
+            <div class="major-perk" id="Major_Perk2"></div>
+            <div class="perk-group">
+              <div class="perk" id="Perk_05"></div>
+              <div class="perk" id="Perk_06"></div>
+            </div>
+            <div class="major-perk" id="Major_Perk3"></div>
+            <div class="perk-group">
+              <div class="perk" id="Perk_07"></div>
+              <div class="perk" id="Perk_08"></div>
+            </div>
+          </div>
+        </div>
+
+        <button class="refund-btn" id="RefundBtn"></button>
+      </div>
+    </div>
+
+    <button id="MenuToggle"></button>
+
+    <div id="PopupOverlay" style="display: none">
+      <div id="PopupDialog">
+        <span id="PopupText">Are you sure?</span>
+        <div id="PopupCostRow" style="display: none">
+          <div class="popup-diamond-icon" id="PopupDiamondIcon"></div>
+          <span id="PopupCostLabel">0</span>
+        </div>
+        <div id="PopupButtons">
+          <div class="popup-btn-icon" id="PopupYes"></div>
+          <div class="popup-btn-icon" id="PopupNo"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="DialoguePanel" style="display: none">
+      <div id="DialogueFrame">
+        <div id="DialogueIcon"></div>
+        <div id="DialogueBody">
+          <span id="DialogueText"></span>
+          <button id="DialogueNextBtn">ДАЛЕЕ</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="UpgradesPanel">
+    <div class="tutorial-arrow" id="TutArrow_0"></div>
+    <div class="tutorial-arrow" id="TutArrow_1"></div>
+    <div class="tutorial-arrow" id="TutArrow_2"></div>
+    <span id="UpgradesTitle"></span>
+
+    <div id="UpgradeContainer">
+      <div class="upgrade-card" id="Upgrade_HealthMax">
+        <span class="upgrade-level-top" id="Level_HealthMax">Lv. 1</span>
+        <div class="upgrade-icon" id="Icon_HealthMax"></div>
+        <div class="upgrade-info">
+          <div class="upgrade-header">
+            <span class="upgrade-name"></span>
+          </div>
+          <span class="upgrade-total" id="Total_HealthMax">Total +0 HP</span>
+          <div class="upgrade-footer">
+            <div class="upgrade-cost-row">
+              <div class="upgrade-cost-icon"></div>
+              <span class="upgrade-cost-label" id="CostPart_HealthMax">50</span>
+            </div>
+            <button class="upgrade-buy-btn" id="Btn_HealthMax">Upgrade +25</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="upgrade-card" id="Upgrade_HealthRegen">
+        <span class="upgrade-level-top" id="Level_HealthRegen">Lv. 1</span>
+        <div class="upgrade-icon" id="Icon_HealthRegen"></div>
+        <div class="upgrade-info">
+          <div class="upgrade-header">
+            <span class="upgrade-name"></span>
+          </div>
+          <span class="upgrade-total" id="Total_HealthRegen">Total +0 HP/s</span>
+          <div class="upgrade-footer">
+            <div class="upgrade-cost-row">
+              <div class="upgrade-cost-icon"></div>
+              <span class="upgrade-cost-label" id="CostPart_HealthRegen">50</span>
+            </div>
+            <button class="upgrade-buy-btn" id="Btn_HealthRegen">Upgrade +1</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="upgrade-card" id="Upgrade_Damage">
+        <span class="upgrade-level-top" id="Level_Damage">Lv. 1</span>
+        <div class="upgrade-icon" id="Icon_Damage"></div>
+        <div class="upgrade-info">
+          <div class="upgrade-header">
+            <span class="upgrade-name"></span>
+          </div>
+          <span class="upgrade-total" id="Total_Damage">Total +0 DMG</span>
+          <div class="upgrade-footer">
+            <div class="upgrade-cost-row">
+              <div class="upgrade-cost-icon"></div>
+              <span class="upgrade-cost-label" id="CostPart_Damage">50</span>
+            </div>
+            <button class="upgrade-buy-btn" id="Btn_Damage">Upgrade +2</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="upgrade-card" id="Upgrade_RotationSpeed">
+        <span class="upgrade-level-top" id="Level_RotationSpeed">Lv. 1</span>
+        <div class="upgrade-icon" id="Icon_RotationSpeed"></div>
+        <div class="upgrade-info">
+          <div class="upgrade-header">
+            <span class="upgrade-name"></span>
+          </div>
+          <span class="upgrade-total" id="Total_RotationSpeed">Total +0°/s</span>
+          <div class="upgrade-footer">
+            <div class="upgrade-cost-row">
+              <div class="upgrade-cost-icon"></div>
+              <span class="upgrade-cost-label" id="CostPart_RotationSpeed">50</span>
+            </div>
+            <button class="upgrade-buy-btn" id="Btn_RotationSpeed">Upgrade +15</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="upgrade-card" id="Upgrade_BladeCount">
+        <span class="upgrade-level-top" id="Level_BladeCount">Lv. 1</span>
+        <div class="upgrade-icon" id="Icon_BladeCount"></div>
+        <div class="upgrade-info">
+          <div class="upgrade-header">
+            <span class="upgrade-name"></span>
+          </div>
+          <span class="upgrade-total" id="Total_BladeCount">Total +0</span>
+          <div class="upgrade-footer">
+            <div class="upgrade-cost-row">
+              <div class="upgrade-cost-icon"></div>
+              <span class="upgrade-cost-label" id="CostPart_BladeCount">50</span>
+            </div>
+            <button class="upgrade-buy-btn" id="Btn_BladeCount">Upgrade +1</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

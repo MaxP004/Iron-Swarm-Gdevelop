@@ -1,0 +1,55 @@
+
+> iron-swarm-gdevelop@1.1.0 test
+> tsx --test tests/*.test.ts
+
+✔ serialized scene balance overrides the C# defaults (1.9839ms)
+✔ Unity midpoint rounding uses even numbers (0.1869ms)
+✔ initial stats and first upgrade prices match the legacy game (0.5279ms)
+✔ insufficient currency and capped levels do not spend gold (0.2028ms)
+✔ cost rounding, discount and cap use the original order (0.2434ms)
+✔ perk dependencies follow purchases rather than wave milestones (0.3149ms)
+✔ major bonuses apply per upgrade level, with the original delayed recalculation (0.3195ms)
+✔ all level extensions stack, but blades always stop at ten (0.2685ms)
+✔ difficulty spikes multiply cumulatively and enemy speed caps at eight (0.3389ms)
+✔ kill rewards include gold perk and boss multiplier (0.2353ms)
+✔ wave one has three enemies and the original spawn interval (0.3759ms)
+✔ boss wave waits one second before spawning normal enemies (0.2587ms)
+✔ hundredth wave keeps the three boss stat variants and offsets (0.2867ms)
+✔ highest major perk replaces earlier wave batching (0.2058ms)
+✔ batch crossing a boss wave preserves that boss and alternates skins (0.1484ms)
+✔ beyond wave 100, normal enemy stats stay clamped to 100 as in Unity (0.1511ms)
+✔ abilities use cooldowns starting at activation (0.1649ms)
+✔ menu pause freezes abilities, combat, passive income and delayed waves (1.8826ms)
+✔ six dialogue lines gate the initial wave without pausing the clock (1.7615ms)
+✔ prestige awards triangular diamonds and preserves permanent perks (0.4315ms)
+✔ prestige is unavailable below wave 21 (0.1045ms)
+✔ death rolls wave counter back five and resumes at the next wave (0.2637ms)
+✔ oriented box collision checks edges and rotated shapes (0.1627ms)
+✔ spawn locations and boss size match prefab configuration (0.2842ms)
+✔ a seeded battle clears waves and gold is delivered after the coin animation (12.3505ms)
+✔ Unity-compatible save data round-trips all progression and timers (0.4813ms)
+✔ settings pause freezes combat and restores an already open perk menu (0.5551ms)
+✔ refund hint is completed by the first reset and persists in browser saves (0.2352ms)
+✔ first major perk introduces the ability after leaving the tree and pauses its explanation (0.408ms)
+✔ ability tutorial resumes from an old or interrupted save and stays completed after use (0.3806ms)
+✔ invalid saves cannot inject non-finite numbers or arbitrary properties (0.287ms)
+✔ an overlapping blade hits once until the colliders separate and re-enter (0.174ms)
+✔ a coin pays only after all three serialized animation phases (0.2618ms)
+✔ invincibility blocks enemy attack damage while an ordinary hit lands (0.1638ms)
+✔ wave 21 dialogue does not stop the enemy spawn schedule (0.1635ms)
+✔ skill tree stays locked until its dialogue completes, including keyboard access (0.2335ms)
+✔ the ending dialogue unlocks endless waves after completion (33.6099ms)
+✔ loading a save resumes its current wave and clamps health to max HP (0.1259ms)
+✔ loading a wave zero save does not create an invalid boss (0.1438ms)
+✔ preferences reject malformed values and clamp independent channel volumes (1.3393ms)
+✔ preferences persist separately from game progress and survive corrupt or blocked storage (0.4922ms)
+✔ music and effects gain channels respect preferences before and after audio unlock (0.8429ms)
+✔ local diagnostics exclude paused play time and bound error reports (0.3608ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 43
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 354.8172

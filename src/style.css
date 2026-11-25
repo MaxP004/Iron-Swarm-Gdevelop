@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Tiny5;
+  src: url('/assets/Fonts/Tiny5-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: clip;
+  background: #000;
+  color: #dcdcf0;
+  font-family: Tiny5, monospace;
+}
+button,
+input {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+button:focus-visible,
+[role='button']:focus-visible,
+.file-button:focus-within {
+  outline: 4px solid #b9d7ff;
+  outline-offset: 3px;
+}
+#viewport {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: clip;
+}
+#game {
+  flex-shrink: 0;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+}
+#world,
+#ui {
+  position: absolute;
+  inset: 0;
+}
+canvas {
+  display: block;
+  image-rendering: pixelated;
+}
+#ui {
+  pointer-events: none;
+}
+:where(#ui div) {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 0;
+}
+:where(#ui span) {
+  display: block;
+  flex-shrink: 0;
+}
+:where(#ui button) {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  padding: 0;
+}
+#ui button,
+#ui [role='button'],
+#MenuPanel,
+#PopupOverlay,
+#DialoguePanel {
+  pointer-events: auto;
+}
+#ui * {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  image-rendering: pixelated;
+}
+#ui #RootContainer {
+  position: absolute;
+  inset: 0;
+  flex-direction: row;
+}
+#ui #GameArea {
+  width: 1440px;
+  flex-shrink: 0;
+}
+#ui #UpgradesPanel {
+  flex-shrink: 0;
+}

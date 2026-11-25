@@ -1,0 +1,96 @@
+{
+  "baseCosts": [500, 500, 500, 500, 8000],
+  "costMultipliers": [1.05, 1.05, 1.05, 1.05, 3.5],
+  "maxLevels": [50, 50, 50, 50, 3],
+  "bonusPerLevel": [50, 1, 15, 1, 1],
+  "unitText": ["HP", "HP/s", "DMG", "°/s", null],
+  "baseHealth": 100,
+  "baseHealthRegen": 10,
+  "baseDamage": 500,
+  "baseRotationSpeed": 30,
+  "baseBladeCount": 2,
+  "startGold": 1000,
+  "totalWaves": 100,
+  "timeBetweenWaves": 3,
+  "enemyBaseHP": 50,
+  "enemyHPPerWave": 150,
+  "enemyBaseDamage": 0.25,
+  "enemyDamagePerWave": 1.25,
+  "enemyBaseSpeed": 2,
+  "enemySpeedPerWave": 0.1,
+  "enemyMaxSpeed": 8,
+  "enemyBaseGold": 50,
+  "enemyGoldPerWave": 50,
+  "bossHPMultiplier": 5,
+  "bossGoldMultiplier": 5,
+  "bossStopDistance": 3,
+  "bossScale": 1.7,
+  "difficultySpikes": [
+    {
+      "wave": 50,
+      "multiplier": 1.2
+    },
+    {
+      "wave": 70,
+      "multiplier": 1.4
+    },
+    {
+      "wave": 90,
+      "multiplier": 1.6
+    }
+  ],
+  "spawnRadiusMin": 9,
+  "spawnRadiusMax": 11,
+  "baseEnemyCount": 3,
+  "extraEnemiesPerWave": 1,
+  "spawnInterval": 0.8,
+  "spawnIntervalDecreasePerWave": 0.005,
+  "minSpawnInterval": 0.3,
+  "majorPerkWaveConfigs": [
+    {
+      "affectUntilWave": 45,
+      "spawnIntervalMultiplier": 0.5,
+      "wavesPerBatch": 2
+    },
+    {
+      "affectUntilWave": 65,
+      "spawnIntervalMultiplier": 0.4,
+      "wavesPerBatch": 3
+    },
+    {
+      "affectUntilWave": 85,
+      "spawnIntervalMultiplier": 0.3,
+      "wavesPerBatch": 4
+    }
+  ],
+  "major1_DiamondCost": 250,
+  "major1_DamageBonus": 5,
+  "major1_SpeedBoost": 100,
+  "major1_Duration": 15,
+  "major1_Cooldown": 30,
+  "major2_DiamondCost": 1250,
+  "major2_HpBonus": 50,
+  "major2_RegenBonus": 1,
+  "major2_InvDuration": 10,
+  "major2_InvCooldown": 30,
+  "major3_DiamondCost": 2500,
+  "major3_AttackCdPercent": 150,
+  "major3_SlowPercent": 90,
+  "major3_SlowDuration": 15,
+  "major3_SlowCooldown": 30,
+  "goldPerkDiamondCost": 100,
+  "goldPerkBonus": 50,
+  "maxLvPerkDiamondCost": 150,
+  "maxLvPerkBonus": [50, 50, 50, 50, 1],
+  "discountPerkDiamondCost": 500,
+  "discountPercent": 60,
+  "maxLv2PerkDiamondCost": 750,
+  "maxLv2PerkBonus": [50, 50, 50, 50, 2],
+  "goldPerSecDiamondCost": 1000,
+  "goldPerSecond": 50000,
+  "maxLv3DiamondCost": 1500,
+  "maxLv3PerkBonus": [50, 50, 50, 50, 3],
+  "costCapDiamondCost": 5000,
+  "costCapAmount": 500000,
+  "unlimitedDiamondCost": 5000
+}

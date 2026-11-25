@@ -1,0 +1,10 @@
+
+> iron-swarm-gdevelop@1.1.0 build:gdevelop
+> tsc --noEmit && node scripts/build-gdevelop.mjs
+
+vite v8.3.6 building client environment for production...
+transforming...
+✓ 742 modules transformed.
+rendering chunks...
+✓ built in 364ms
+GDevelop package: 63 assets, 3.71 MiB; game.json updated.

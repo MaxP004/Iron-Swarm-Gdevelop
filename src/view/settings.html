@@ -1,0 +1,58 @@
+<button id="SettingsToggle" aria-label="Настройки">
+  <span class="settings-symbol" aria-hidden="true"></span>
+</button>
+<button id="SpeedToggle" aria-label="Game speed"><span id="SpeedValue">1x</span></button>
+<div id="SettingsOverlay" style="display: none">
+  <section id="SettingsDialog" role="dialog" aria-modal="true" aria-labelledby="SettingsTitle">
+    <header class="settings-heading">
+      <h1 id="SettingsTitle" data-setting-text="settings_title"></h1>
+      <button id="SettingsClose" data-setting-text="close"></button>
+    </header>
+    <div class="settings-grid">
+      <div class="settings-column">
+        <h2 data-setting-text="audio_title"></h2>
+        <label class="settings-check"
+          ><span data-setting-text="music"></span><input id="music-enabled" type="checkbox"
+        /></label>
+        <label class="settings-volume" for="music-volume"
+          ><span data-setting-text="music_volume"></span><output id="music-value"></output
+        ></label>
+        <input id="music-volume" type="range" min="0" max="100" step="1" />
+        <label class="settings-check"
+          ><span data-setting-text="sounds"></span><input id="sound-enabled" type="checkbox"
+        /></label>
+        <label class="settings-volume" for="sound-volume"
+          ><span data-setting-text="sound_volume"></span><output id="sound-value"></output
+        ></label>
+        <input id="sound-volume" type="range" min="0" max="100" step="1" />
+        <h2 data-setting-text="display_title"></h2>
+        <label class="settings-language"
+          ><span data-setting-text="language"></span
+          ><select id="language">
+            <option value="ru">Русский</option>
+            <option value="en">English</option>
+          </select></label
+        >
+        <button id="fullscreen" data-setting-text="fullscreen"></button>
+      </div>
+      <div class="settings-column">
+        <h2 data-setting-text="progress_title"></h2>
+        <button id="save-browser" data-setting-text="save"></button>
+        <p class="settings-hint" data-setting-text="save_hint"></p>
+        <button id="new-game" class="settings-danger" data-setting-text="new_game"></button>
+        <div id="SettingsRestartConfirm" style="display: none">
+          <p data-setting-text="restart_confirm"></p>
+          <div class="settings-save-row">
+            <button
+              id="SettingsRestartYes"
+              class="settings-danger"
+              data-setting-text="confirm"
+            ></button
+            ><button id="SettingsRestartNo" data-setting-text="cancel"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="SettingsVersion"></footer>
+  </section>
+</div>

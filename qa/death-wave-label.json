@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "text": "wave -5",
+  "waveBefore": 20,
+  "waveAfter": 15,
+  "browserErrors": []
+}

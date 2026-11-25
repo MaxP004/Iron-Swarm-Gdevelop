@@ -1,0 +1,579 @@
+#ui #UpgradesPanel {
+  height: 1080px;
+}
+#ui .upgrade-info {
+  min-width: 0;
+}
+#ui .upgrade-name {
+  padding-right: 58px;
+  white-space: nowrap;
+}
+#ui .upgrade-level-top {
+  z-index: 1;
+}
+#ui .upgrade-icon {
+  width: 135px;
+  height: 135px;
+}
+#ui .upgrade-buy-btn {
+  width: 140px;
+}
+#ui .upgrade-cost-row {
+  width: 110px;
+}
+#ui .upgrade-footer {
+  gap: 3px;
+}
+#ui .upgrade-total {
+  display: flex;
+  align-items: center;
+}
+#ui #PopupText {
+  white-space: pre-line;
+}
+#ui #PopupDialog {
+  max-height: 1020px;
+}
+#ui #DialogueBody {
+  min-width: 0;
+}
+#ui #DialogueText {
+  display: flex;
+  align-items: center;
+  line-height: 1.15;
+}
+#ui #MenuToggle {
+  display: none;
+  z-index: 10;
+}
+#ui #TopBar {
+  z-index: 2;
+}
+#ui #MenuPanel {
+  z-index: 3;
+}
+#ui #PopupOverlay {
+  z-index: 20;
+}
+#ui #DialoguePanel {
+  z-index: 30;
+}
+#ui #MajorButtonsRow {
+  bottom: auto;
+  height: var(--ability-size);
+  gap: var(--ability-gap);
+  z-index: 1;
+}
+#ui .major-ability-btn {
+  width: var(--ability-size);
+  height: var(--ability-size);
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#ui .major-ability-btn.active {
+  border-color: #ffe267;
+  box-shadow: 0 0 20px #ffe26766;
+}
+#ui .cooldown-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #0009;
+}
+#ui .cooldown-text {
+  z-index: 1;
+  font-size: 38px;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+#ui .perk,
+#ui .major-perk {
+  cursor: pointer;
+  background-color: transparent;
+}
+#ui .locked {
+  opacity: 0.4;
+  cursor: default;
+}
+#ui .bought {
+  background-color: #00800040;
+  border-color: #429e45;
+}
+#ui .tutorial-arrow {
+  display: none;
+  width: 224px;
+  height: 224px;
+  z-index: 5;
+  pointer-events: none;
+  rotate: none;
+  animation: arrow-pulse 1.2s ease-in-out infinite;
+}
+#ui .tutorial-arrow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/assets/Textures/UI/TutorialPointer.png') center / contain no-repeat;
+  image-rendering: pixelated;
+  transform: rotate(90deg);
+}
+#ui #TutRefundArrow {
+  z-index: 4;
+}
+#ui #TutAbilityArrow {
+  width: 128px;
+  height: 128px;
+}
+#ui #SettingsToggle {
+  position: absolute;
+  top: 108px;
+  left: 48px;
+  width: 104px;
+  height: 104px;
+  background: #282839;
+  border: 4px solid #66667e;
+  border-radius: 0;
+  box-shadow:
+    inset 4px 4px 0 #424258,
+    inset -4px -4px 0 #171723,
+    0 5px 0 #090910;
+  clip-path: polygon(
+    0 8px,
+    8px 8px,
+    8px 0,
+    calc(100% - 8px) 0,
+    calc(100% - 8px) 8px,
+    100% 8px,
+    100% calc(100% - 8px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 8px) 100%,
+    8px 100%,
+    8px calc(100% - 8px),
+    0 calc(100% - 8px)
+  );
+  z-index: 40;
+}
+#ui #SettingsToggle:hover {
+  background-color: #3a394b;
+  border-color: #e6c76c;
+}
+#ui #SettingsToggle:active {
+  box-shadow: inset 4px 4px 0 #171723;
+}
+#ui #SettingsToggle:focus-visible {
+  outline: none;
+  border-color: #ffe38c;
+}
+#ui #SpeedToggle {
+  position: absolute;
+  top: 108px;
+  left: 172px;
+  width: 104px;
+  height: 104px;
+  background: #282839;
+  border: 4px solid #66667e;
+  border-radius: 0;
+  box-shadow:
+    inset 4px 4px 0 #424258,
+    inset -4px -4px 0 #171723,
+    0 5px 0 #090910;
+  clip-path: polygon(
+    0 8px,
+    8px 8px,
+    8px 0,
+    calc(100% - 8px) 0,
+    calc(100% - 8px) 8px,
+    100% 8px,
+    100% calc(100% - 8px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 8px) 100%,
+    8px 100%,
+    8px calc(100% - 8px),
+    0 calc(100% - 8px)
+  );
+  z-index: 40;
+}
+#ui #SpeedToggle:hover {
+  background-color: #3a394b;
+  border-color: #e6c76c;
+}
+#ui #SpeedToggle:active {
+  box-shadow: inset 4px 4px 0 #171723;
+}
+#ui #SpeedToggle:focus-visible {
+  outline: none;
+  border-color: #ffe38c;
+}
+#ui #SpeedToggle {
+  color: #dcdcf0;
+  font-size: 40px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+#ui #SpeedToggle.fast {
+  color: #ffe38c;
+  border-color: #e6c76c;
+}
+.settings-symbol {
+  width: 72px;
+  height: 72px;
+  background: url('/assets/Textures/UI/Settings.svg') center / contain no-repeat;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+#ui #SettingsOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 60;
+  background: #070711c9;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+#SettingsDialog {
+  width: 1180px;
+  max-height: 990px;
+  overflow-y: auto;
+  padding: 28px 36px;
+  background: #1c1c2d;
+  color: #dcdcf0;
+  border: 3px solid #64647d;
+  border-radius: 14px;
+  box-shadow: 0 16px 60px #000a;
+  font-size: 28px;
+  scrollbar-color: #63637c #1c1c2d;
+}
+#SettingsDialog .settings-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+#SettingsDialog h1 {
+  margin: 0;
+  color: #69b5ff;
+  font-size: 52px;
+  font-weight: normal;
+}
+#SettingsDialog h2 {
+  margin: 14px 0 6px;
+  color: #e7ca81;
+  font-size: 30px;
+  font-weight: normal;
+}
+#SettingsDialog p {
+  margin: 0;
+}
+#ui #SettingsDialog .settings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+}
+#SettingsDialog .settings-column {
+  gap: 10px;
+  min-width: 0;
+}
+#SettingsDialog button,
+#SettingsDialog .file-button,
+#SettingsDialog select {
+  min-height: 48px;
+  background: #303049;
+  border: 2px solid #5d5d78;
+  border-radius: 7px;
+  color: #e7e7f6;
+  padding: 6px 14px;
+  font: inherit;
+}
+#SettingsDialog button:hover,
+#SettingsDialog .file-button:hover {
+  background: #41415d;
+  border-color: #9e9eb6;
+}
+#SettingsDialog button:active {
+  transform: translateY(2px);
+}
+#SettingsDialog .settings-check,
+#SettingsDialog .settings-language,
+#SettingsDialog .settings-volume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+#SettingsDialog output {
+  color: #e7ca81;
+}
+#SettingsDialog input[type='checkbox'] {
+  appearance: none;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  border: 3px solid #76768c;
+  background: #11111e;
+  cursor: pointer;
+}
+#SettingsDialog input[type='checkbox']:checked {
+  background: #55b442;
+  box-shadow: inset 0 0 0 4px #202031;
+}
+#SettingsDialog input[type='range'] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 44px;
+  margin: 0 0 10px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  --range-fill: 100%;
+  cursor: pointer;
+}
+#SettingsDialog input[type='range']::-webkit-slider-runnable-track {
+  box-sizing: border-box;
+  height: 20px;
+  border: 4px solid #0d0d18;
+  border-radius: 0;
+  background: linear-gradient(
+    to right,
+    #d5aa42 0 var(--range-fill),
+    #333347 var(--range-fill) 100%
+  );
+  box-shadow:
+    inset 0 3px 0 #ffffff1a,
+    0 4px 0 #090910;
+}
+#SettingsDialog input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 36px;
+  margin-top: -12px;
+  border: 4px solid #60431e;
+  border-radius: 0;
+  background: #e6b746;
+  box-shadow:
+    inset 4px 4px 0 #ffdf7e,
+    inset -4px -4px 0 #ab741f;
+  clip-path: polygon(
+    0 4px,
+    4px 4px,
+    4px 0,
+    calc(100% - 4px) 0,
+    calc(100% - 4px) 4px,
+    100% 4px,
+    100% calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) 100%,
+    4px 100%,
+    4px calc(100% - 4px),
+    0 calc(100% - 4px)
+  );
+}
+#SettingsDialog input[type='range']::-moz-range-track {
+  box-sizing: border-box;
+  height: 20px;
+  border: 4px solid #0d0d18;
+  border-radius: 0;
+  background: #333347;
+  box-shadow:
+    inset 0 3px 0 #ffffff1a,
+    0 4px 0 #090910;
+}
+#SettingsDialog input[type='range']::-moz-range-progress {
+  height: 12px;
+  border-radius: 0;
+  background: #d5aa42;
+}
+#SettingsDialog input[type='range']::-moz-range-thumb {
+  box-sizing: border-box;
+  width: 28px;
+  height: 36px;
+  border: 4px solid #60431e;
+  border-radius: 0;
+  background: #e6b746;
+  box-shadow:
+    inset 4px 4px 0 #ffdf7e,
+    inset -4px -4px 0 #ab741f;
+}
+#SettingsDialog input[type='range']:hover {
+  filter: brightness(1.12);
+}
+#ui #SettingsDialog .settings-save-row {
+  flex-direction: row;
+  gap: 10px;
+}
+#SettingsDialog .settings-save-row > * {
+  flex: 1;
+}
+#SettingsDialog .file-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+#SettingsDialog input[type='file'] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+#SettingsDialog .settings-hint {
+  font-size: 22px;
+  color: #a6a6bd;
+  line-height: 1.15;
+}
+#SettingsDialog button.settings-danger {
+  background: #6f3037;
+  border-color: #b25b60;
+}
+#SettingsVersion {
+  margin-top: 16px;
+  color: #9393ac;
+  text-align: center;
+  font-size: 22px;
+}
+#SettingsDialog :is(input, select):focus-visible {
+  outline: 3px solid #b9d7ff;
+  outline-offset: 3px;
+}
+#notice {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  background: #141423ed;
+  color: #dcdcf0;
+  padding: 14px 22px;
+  border: 2px solid #60607f;
+  border-radius: 8px;
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  z-index: 40;
+}
+#notice.visible {
+  opacity: 1;
+}
+#boot {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 48px;
+  background: #14141e;
+  z-index: 100;
+}
+#boot small {
+  font-size: 24px;
+  color: #a2a2bb;
+  margin-top: 20px;
+}
+@keyframes arrow-pulse {
+  50% {
+    opacity: 0.7;
+  }
+}
+#LanguageScreen {
+  position: absolute;
+  inset: 0;
+  z-index: 101;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(ellipse at center, #242439 0%, #101018 75%);
+}
+.language-card {
+  width: 880px;
+  padding: 64px;
+  text-align: center;
+  background: #1c1c2d;
+  border: 4px solid #64647d;
+  box-shadow: 0 16px 60px #0009, inset 0 4px #ffffff0c;
+}
+.language-logo {
+  font-size: 86px;
+  color: #e7ca81;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px #60431e;
+  margin-bottom: 42px;
+}
+.language-card h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #e7e7f6;
+  font-weight: normal;
+}
+.language-subtitle {
+  margin: 8px 0 36px;
+  font-size: 30px;
+  color: #a6a6bd;
+}
+.language-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 0;
+  margin: 0 0 38px;
+  border: 0;
+}
+.language-legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.language-option {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  border: 3px solid #5d5d78;
+  background: #282839;
+  font-size: 42px;
+  cursor: pointer;
+  position: relative;
+}
+.language-option small {
+  font-size: 26px;
+  color: #a6a6bd;
+}
+.language-option input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.language-option:has(input:checked) {
+  background: #343447;
+  border-color: #e7ca81;
+  color: #ffe38c;
+  box-shadow: inset 0 -5px #e7ca8133;
+}
+.language-option:hover {
+  background: #3a394b;
+}
+.language-option:has(input:focus-visible) {
+  outline: 4px solid #b9d7ff;
+  outline-offset: 6px;
+}
+#LanguageContinue {
+  width: 100%;
+  min-height: 86px;
+  padding: 12px 24px;
+  border: 3px solid #4ab157;
+  background: #2b8f3e;
+  color: white;
+  font-size: 40px;
+}
+#LanguageContinue:hover {
+  background: #35a54b;
+}

@@ -1,0 +1,62 @@
+{
+  "PlayerDeath": {
+    "url": "assets/Sounds/playerdeath.wav",
+    "volume": 1,
+    "pitch": 1,
+    "loop": false
+  },
+  "PlayerAttack": {
+    "url": "assets/Sounds/playerattack.wav",
+    "volume": 1,
+    "pitch": 0.65,
+    "loop": false
+  },
+  "Music": {
+    "url": "assets/Sounds/music.mp3",
+    "volume": 0.18,
+    "pitch": 1,
+    "loop": true
+  },
+  "ClickUpgrade": {
+    "url": "assets/Sounds/upgrade.wav",
+    "volume": 0.4,
+    "pitch": 1,
+    "loop": false
+  },
+  "EnemyAttack": {
+    "url": "assets/Sounds/playerattack.wav",
+    "volume": 1,
+    "pitch": 0.45,
+    "loop": false
+  },
+  "AbilitySpeed": {
+    "url": "assets/Sounds/ability1.wav",
+    "volume": 1,
+    "pitch": 1,
+    "loop": false
+  },
+  "EnemyDeath": {
+    "url": "assets/Sounds/enemydeath.wav",
+    "volume": 1,
+    "pitch": 0.7,
+    "loop": false
+  },
+  "Click": {
+    "url": "assets/Sounds/click.wav",
+    "volume": 1,
+    "pitch": 0.6,
+    "loop": false
+  },
+  "AbilityInvincibility": {
+    "url": "assets/Sounds/ability2.wav",
+    "volume": 1,
+    "pitch": 1,
+    "loop": false
+  },
+  "AbilitySlow": {
+    "url": "assets/Sounds/ability3.wav",
+    "volume": 1,
+    "pitch": 1,
+    "loop": false
+  }
+}

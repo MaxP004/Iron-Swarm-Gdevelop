@@ -1,0 +1,5454 @@
+{
+  "scene": [
+    {
+      "name": "PlayerDeath",
+      "id": "210791647",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 210791647
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 210791647
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "5099d0380f6e15b4e8fc1cc7b6e76e27",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 1,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Main Camera",
+      "id": "330585543",
+      "components": [
+        {
+          "AudioListener": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 330585543
+            },
+            "m_Enabled": 1
+          }
+        },
+        {
+          "Camera": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 330585543
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 2,
+            "m_ClearFlags": 1,
+            "m_BackGroundColor": {
+              "r": 0.19215687,
+              "g": 0.3019608,
+              "b": 0.4745098,
+              "a": 0
+            },
+            "m_projectionMatrixMode": 1,
+            "m_GateFitMode": 2,
+            "m_FOVAxisMode": 0,
+            "m_Iso": 200,
+            "m_ShutterSpeed": 0.005,
+            "m_Aperture": 16,
+            "m_FocusDistance": 10,
+            "m_FocalLength": 50,
+            "m_BladeCount": 5,
+            "m_Curvature": {
+              "x": 2,
+              "y": 11
+            },
+            "m_BarrelClipping": 0.25,
+            "m_Anamorphism": 0,
+            "m_SensorSize": {
+              "x": 36,
+              "y": 24
+            },
+            "m_LensShift": {
+              "x": 0,
+              "y": 0
+            },
+            "m_NormalizedViewPortRect": {
+              "serializedVersion": 2,
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 1
+            },
+            "near clip plane": 0.3,
+            "far clip plane": 1000,
+            "field of view": 60,
+            "orthographic": 0,
+            "orthographic size": 5,
+            "m_Depth": -1,
+            "m_CullingMask": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_RenderingPath": -1,
+            "m_TargetTexture": {
+              "fileID": 0
+            },
+            "m_TargetDisplay": 0,
+            "m_TargetEye": 3,
+            "m_HDR": 1,
+            "m_AllowMSAA": 1,
+            "m_AllowDynamicResolution": 0,
+            "m_ForceIntoRT": 0,
+            "m_OcclusionCulling": 1,
+            "m_StereoConvergence": 10,
+            "m_StereoSeparation": 0.022
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 330585543
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 2.55,
+              "y": 2.5,
+              "z": -10
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 330585543
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "a79441f348de89743a2939f4d699eac1",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": null,
+            "m_RenderShadows": 1,
+            "m_RequiresDepthTextureOption": 2,
+            "m_RequiresOpaqueTextureOption": 2,
+            "m_CameraType": 0,
+            "m_Cameras": [],
+            "m_RendererIndex": -1,
+            "m_VolumeLayerMask": {
+              "serializedVersion": 2,
+              "m_Bits": 1
+            },
+            "m_VolumeTrigger": {
+              "fileID": 0
+            },
+            "m_VolumeFrameworkUpdateModeOption": 2,
+            "m_RenderPostProcessing": 1,
+            "m_Antialiasing": 0,
+            "m_AntialiasingQuality": 2,
+            "m_StopNaN": 0,
+            "m_Dithering": 0,
+            "m_ClearDepth": 1,
+            "m_AllowXRRendering": 1,
+            "m_AllowHDROutput": 1,
+            "m_UseScreenCoordOverride": 0,
+            "m_ScreenSizeOverride": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "m_ScreenCoordScaleBias": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "m_RequiresDepthTexture": 0,
+            "m_RequiresColorTexture": 0,
+            "m_TaaSettings": {
+              "m_Quality": 3,
+              "m_FrameInfluence": 0.1,
+              "m_JitterScale": 1,
+              "m_MipBias": 0,
+              "m_VarianceClampScale": 0.9,
+              "m_ContrastAdaptiveSharpening": 0
+            },
+            "m_Version": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "SoundManager",
+      "id": "364354645",
+      "components": [
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 364354645
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "ecec19fd5e7708244b775b16115c2ae4",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::SoundManager",
+            "_playerAttackPitchRange": 0.1,
+            "_enemyDeathPitchRange": 0.1,
+            "_enemyAttackPitchRange": 0.1,
+            "_playerAttackSource": {
+              "fileID": 618210963
+            },
+            "_enemyDeathSource": {
+              "fileID": 1577460974
+            },
+            "_enemyAttackSource": {
+              "fileID": 1468863425
+            },
+            "_abilitySpeedSource": {
+              "fileID": 1492413164
+            },
+            "_abilityInvincibilitySource": {
+              "fileID": 1937847427
+            },
+            "_abilitySlowSource": {
+              "fileID": 2143213471
+            },
+            "_playerDeathSource": {
+              "fileID": 210791649
+            },
+            "_clickSource": {
+              "fileID": 1750810193
+            },
+            "_clickUpgradeSource": {
+              "fileID": 1194087297
+            },
+            "_musicSource": {
+              "fileID": 1188894737
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 364354645
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [
+              {
+                "fileID": 618210962
+              },
+              {
+                "fileID": 1577460973
+              },
+              {
+                "fileID": 1468863424
+              },
+              {
+                "fileID": 1492413163
+              },
+              {
+                "fileID": 1937847426
+              },
+              {
+                "fileID": 2143213470
+              },
+              {
+                "fileID": 210791648
+              },
+              {
+                "fileID": 1188894738
+              },
+              {
+                "fileID": 1194087298
+              },
+              {
+                "fileID": 1750810194
+              }
+            ],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "PlayerAttack",
+      "id": "618210961",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 618210961
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 618210961
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "639f37dc9935a3f43ae2bcf3349f47f2",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 0.65,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Global Volume",
+      "id": "832575517",
+      "components": [
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 832575517
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "172515602e62fb746b5d573b38a5fe58",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": null,
+            "m_IsGlobal": 1,
+            "priority": 0,
+            "blendDistance": 0,
+            "weight": 1,
+            "sharedProfile": {
+              "fileID": 11400000,
+              "guid": "10fc4df2da32a41aaa32d77bc913491c",
+              "type": 2
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 832575517
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tutorial",
+      "id": "861475074",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 861475074
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 5.88911,
+              "y": 0.13656,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "GameManager",
+      "id": "936301449",
+      "components": [
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "25b4fd07a7c68d04ba6a98fd11063eb9",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::GameManager",
+            "_loadSlot": null,
+            "_language": "ru",
+            "_config": {
+              "fileID": 11400000,
+              "guid": "cb1be6c5d9cb9c147a37da611570ce83",
+              "type": 2
+            }
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 19102,
+              "guid": 0,
+              "type": 0
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "UnityEngine.dll::UnityEngine.UIElements.UIDocument",
+            "m_PanelSettings": {
+              "fileID": 11400000,
+              "guid": "b4fb5a8c56b2f6c4089a168cc72fc4f8",
+              "type": 2
+            },
+            "m_ParentUI": {
+              "fileID": 0
+            },
+            "sourceAsset": {
+              "fileID": 9197481963319205000,
+              "guid": "28e1c71741c772d458f9ba5d56d8a9e5",
+              "type": 3
+            },
+            "m_SortingOrder": 0,
+            "m_Position": 0,
+            "m_WorldSpaceSizeMode": 1,
+            "m_WorldSpaceWidth": 1920,
+            "m_WorldSpaceHeight": 1080,
+            "m_PivotReferenceSize": 0,
+            "m_Pivot": 0,
+            "m_WorldSpaceCollider": {
+              "fileID": 0
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "cc35f4e59c319084c91006a03d0d1f2f",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::BladeSpawner",
+            "_bladePrefab": {
+              "fileID": 4232462818726310000,
+              "guid": "d7a210ec274e4534dafa4b57cfa53d04",
+              "type": 3
+            },
+            "_playerTransform": {
+              "fileID": 242478547
+            }
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "ff8a6d6036a62084aa52da041e61a2db",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::EnemySpawner",
+            "_enemyPrefab": {
+              "fileID": 7799143051071773000,
+              "guid": "7f3fb8b80cd4a4f44b77892f248ede41",
+              "type": 3
+            },
+            "_playerTransform": {
+              "fileID": 242478547
+            },
+            "_config": {
+              "fileID": 11400000,
+              "guid": "cb1be6c5d9cb9c147a37da611570ce83",
+              "type": 2
+            },
+            "_enemySprites": [
+              {
+                "fileID": 21300000,
+                "guid": "9757bb5a73959fa4395d5e7db936205f",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "b685fd8d7cdfd504f87519b783d3d8a1",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "a81ad366d58c9964292634a96e407aad",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "6d9aa1c85ffe5834c928fd7aa0b1ece1",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "507d80e25b44b514eb6284a9cc2b49e0",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "8b234ecfb8150204a8f8a1dec778bf91",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "5b5175503ccb3bc4f9f858d22548a11a",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "21149142ab6cc6447bcb0abc0edb8bb9",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "851e7636ec739964997098379abeef08",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "840989cbb5dad5343bc7552e61dd38df",
+                "type": 3
+              }
+            ],
+            "_bossSprites": [
+              {
+                "fileID": 21300000,
+                "guid": "06836b1d87e694145846e7018c8bd34f",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "c8c3bf3dc27f1b0418ea94e3f4479359",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "6772e070dcd3a434ea3c9dab8f33906b",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "6975764602a417b4f9f49b8bbd262a1e",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "6bd76bf1e6d382c4d9f3c497e5a13d4f",
+                "type": 3
+              }
+            ]
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "61523019ff94f794ca1779318eaff915",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::WaveManager"
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "1493d906f05ed834783428f814816ae6",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::PerkManager"
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "2ed8e15de014564468058b020ab1b02a",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::UpgradeManager"
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "6017794c400f70a4ba56fef81db29cfe",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::GameState",
+            "Gold": 0,
+            "Diamonds": 0,
+            "CurrentWave": 0,
+            "Levels": null,
+            "WavesPerBatch": 1,
+            "PerkGoldBought": 0,
+            "PerkMaxLvBought": 0,
+            "PerkDiscountBought": 0,
+            "PerkMaxLv2Bought": 0,
+            "PerkGoldPerSecBought": 0,
+            "PerkMaxLv3Bought": 0,
+            "PerkCostCapBought": 0,
+            "PerkUnlimitedBought": 0,
+            "PerkMajorBought": null,
+            "AbilityBoostEndTime": 0,
+            "AbilityCooldownEndTime": 0,
+            "InvincibilityEndTime": 0,
+            "InvincibilityCooldownEndTime": 0,
+            "SlowEndTime": 0,
+            "SlowCooldownEndTime": 0,
+            "AbilityActive": 0,
+            "SpeedBoostMultiplier": 1,
+            "TutorialGoldDone": 0,
+            "TutorialDiamondDone": 0,
+            "TutorialDone": 0,
+            "TutorialWave21Done": 0,
+            "EndingDone": 0,
+            "DialogueActive": 0
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 936301449
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "4beb2cdb62ed15744833674ef443624f",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::UIManager",
+            "RatioWidth": 16,
+            "RatioHeight": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "id": "1188894736",
+      "components": [
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1188894736
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "0bd1dd162e1b7ab48aa8f65fa2daa13b",
+              "type": 3
+            },
+            "m_PlayOnAwake": 1,
+            "m_Volume": 0.18,
+            "m_Pitch": 1,
+            "Loop": 1,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1188894736
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ClickUpgrade",
+      "id": "1194087296",
+      "components": [
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1194087296
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "5c14873b5533d9746b5d0c54e481e5bb",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 0.4,
+            "m_Pitch": 1,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1194087296
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Background",
+      "id": "1241141460",
+      "components": [
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1241141460
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -10,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 21300000,
+              "guid": "eb81449270ee9db418f321ccc53cde3e",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 2,
+            "m_Size": {
+              "x": 10,
+              "y": 10
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1241141460
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 7,
+              "y": 7,
+              "z": 7
+            },
+            "m_ConstrainProportionsScale": 1,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnemyAttack",
+      "id": "1468863423",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1468863423
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1468863423
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "639f37dc9935a3f43ae2bcf3349f47f2",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 0.45,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AbilitySpeed",
+      "id": "1492413162",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1492413162
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1492413162
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "26cb6cb025f12a9458e1078b7f0b48c3",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 1,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnemyDeath",
+      "id": "1577460972",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1577460972
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1577460972
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "0f054f4d129c4e44b8604235715e8613",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 0.7,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Click",
+      "id": "1750810192",
+      "components": [
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1750810192
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "db8d0d974c881f74ba4f9b52fcb8e6ab",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 0.6,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1750810192
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AbilityInvincibility",
+      "id": "1937847425",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1937847425
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 1937847425
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "0198d7cdfb6cefc4681965e7e1cd7970",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 1,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Force Camera Ratios",
+      "id": "2012709147",
+      "components": [
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2012709147
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "e188ee899633d0b49870a5ae38b7359d",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::AutoLetterbox.ForceCameraRatio",
+            "ratio": {
+              "x": 16,
+              "y": 9
+            },
+            "forceRatioOnAwake": 1,
+            "listenForWindowChanges": 1,
+            "createCameraForLetterBoxRendering": 1,
+            "findCamerasAutomatically": 1,
+            "letterBoxCameraColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "cameras": [],
+            "letterBoxCamera": {
+              "fileID": 0
+            }
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2012709147
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fog",
+      "id": "2016682288",
+      "components": [
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2016682288
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -9,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 7482667652216324000,
+              "guid": "9aa83f0ec743d4641b6b238b33b057f9",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.8
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 2,
+            "m_Size": {
+              "x": 10,
+              "y": 10
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        },
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2016682288
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 7,
+              "y": 7,
+              "z": 7
+            },
+            "m_ConstrainProportionsScale": 1,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AbilitySlow",
+      "id": "2143213469",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2143213469
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 364354653
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "AudioSource": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2143213469
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 4,
+            "OutputAudioMixerGroup": {
+              "fileID": 0
+            },
+            "m_audioClip": {
+              "fileID": 0
+            },
+            "m_Resource": {
+              "fileID": 8300000,
+              "guid": "b2cd4867fc481b241b1cac89aeb0cde1",
+              "type": 3
+            },
+            "m_PlayOnAwake": 0,
+            "m_Volume": 1,
+            "m_Pitch": 1,
+            "Loop": 0,
+            "Mute": 0,
+            "Spatialize": 0,
+            "SpatializePostEffects": 0,
+            "Priority": 128,
+            "DopplerLevel": 1,
+            "MinDistance": 1,
+            "MaxDistance": 500,
+            "Pan2D": 0,
+            "rolloffMode": 0,
+            "BypassEffects": 0,
+            "BypassListenerEffects": 0,
+            "BypassReverbZones": 0,
+            "rolloffCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                },
+                {
+                  "serializedVersion": 3,
+                  "time": 1,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "spreadCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 0,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "serializedVersion": 2,
+              "m_Curve": [
+                {
+                  "serializedVersion": 3,
+                  "time": 0,
+                  "value": 1,
+                  "inSlope": 0,
+                  "outSlope": 0,
+                  "tangentMode": 0,
+                  "weightedMode": 0,
+                  "inWeight": 0.33333334,
+                  "outWeight": 0.33333334
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "player": [
+    {
+      "name": "Body",
+      "id": "117306110612532952",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 117306110612532960
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 8,
+              "y": 8,
+              "z": 8
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 4381992402003791400
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 117306110612532960
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -4,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 21300000,
+              "guid": "bf24914c6716e844a98d87addf2545f3",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 0,
+            "m_Size": {
+              "x": 0.24,
+              "y": 0.24
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Player",
+      "id": "914878098550025169",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 914878098550025200
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [
+              {
+                "fileID": 2873224391687856000
+              },
+              {
+                "fileID": 823441124326004400
+              },
+              {
+                "fileID": 1474253321108408000
+              }
+            ],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "BoxCollider2D": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 914878098550025200
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 3,
+            "m_Density": 1,
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_IncludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_ExcludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_LayerOverridePriority": 0,
+            "m_ForceSendLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_ForceReceiveLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_ContactCaptureLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_CallbackLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_IsTrigger": 0,
+            "m_UsedByEffector": 0,
+            "m_CompositeOperation": 0,
+            "m_CompositeOrder": 0,
+            "m_Offset": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SpriteTilingProperty": {
+              "border": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 0
+              },
+              "pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "oldSize": {
+                "x": 0.24,
+                "y": 0.24
+              },
+              "newSize": {
+                "x": 0.64,
+                "y": 0.64
+              },
+              "adaptiveTilingThreshold": 0.5,
+              "drawMode": 0,
+              "adaptiveTiling": 0
+            },
+            "m_AutoTiling": 0,
+            "m_Size": {
+              "x": 0.0001,
+              "y": 0.0001
+            },
+            "m_EdgeRadius": 0
+          }
+        },
+        {
+          "Rigidbody2D": {
+            "serializedVersion": 5,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 914878098550025200
+            },
+            "m_BodyType": 1,
+            "m_Simulated": 1,
+            "m_UseFullKinematicContacts": 0,
+            "m_UseAutoMass": 0,
+            "m_Mass": 1,
+            "m_LinearDamping": 0,
+            "m_AngularDamping": 0.05,
+            "m_GravityScale": 0,
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_IncludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_ExcludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_Interpolate": 0,
+            "m_SleepingMode": 1,
+            "m_CollisionDetection": 0,
+            "m_Constraints": 0
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 914878098550025200
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "21d4d8f5b71367c4d88352ab3c7c73ad",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::PlayerHealth"
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 914878098550025200
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "499635043d6d0834791a0422544273b2",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::PlayerVisual",
+            "_armorSprites": [
+              {
+                "fileID": 21300000,
+                "guid": "bf24914c6716e844a98d87addf2545f3",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "0ed530a3f78542f429e1c9e527a2db9e",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "464f757eb7c156e4a94d4739ca72e93c",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "d11eebf996bb5b443b49e644774ea85f",
+                "type": 3
+              }
+            ],
+            "_swordSprites": [
+              {
+                "fileID": 21300000,
+                "guid": "2c7e12d75c506684bb2d2981dcd27c11",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "4d9075aa86530c44b87b0cc7212a9755",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "ab984b82d8e71ed49b8170cfc4c34cc1",
+                "type": 3
+              },
+              {
+                "fileID": 21300000,
+                "guid": "eace342bf6e4c284ab6a154fdfb2f3b9",
+                "type": 3
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "HealthText",
+      "id": "2779279610746482974",
+      "components": [
+        {
+          "RectTransform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2779279610746483000
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 0.27791604,
+              "y": 1.8858004,
+              "z": 0.6916291
+            },
+            "m_ConstrainProportionsScale": 1,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 1474253321108408000
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 2,
+              "y": 0.5
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "MeshRenderer": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2779279610746483000
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 2,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 9153716817533345000,
+                "guid": "2ef47b7ec317b4f48a5702551dab299c",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 3,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": 0,
+            "m_MaskInteraction": 0,
+            "m_AdditionalVertexStreams": {
+              "fileID": 0
+            }
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2779279610746483000
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "9541d86e2fd84c1d9990edf0852d74ab",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Unity.TextMeshPro::TMPro.TextMeshPro",
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_RaycastTarget": 1,
+            "m_RaycastPadding": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "m_Maskable": 1,
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_text": "100/100",
+            "m_isRightToLeft": 0,
+            "m_fontAsset": {
+              "fileID": 11400000,
+              "guid": "2ef47b7ec317b4f48a5702551dab299c",
+              "type": 2
+            },
+            "m_sharedMaterial": {
+              "fileID": 9153716817533345000,
+              "guid": "2ef47b7ec317b4f48a5702551dab299c",
+              "type": 2
+            },
+            "m_fontSharedMaterials": [],
+            "m_fontMaterial": {
+              "fileID": 0
+            },
+            "m_fontMaterials": [],
+            "m_fontColor32": {
+              "serializedVersion": 2,
+              "rgba": 4294967295
+            },
+            "m_fontColor": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_enableVertexGradient": 0,
+            "m_colorMode": 3,
+            "m_fontColorGradient": {
+              "topLeft": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "topRight": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "bottomLeft": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "bottomRight": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "m_fontColorGradientPreset": {
+              "fileID": 0
+            },
+            "m_spriteAsset": {
+              "fileID": 0
+            },
+            "m_tintAllSprites": 0,
+            "m_StyleSheet": {
+              "fileID": 0
+            },
+            "m_TextStyleHashCode": -1183493901,
+            "m_overrideHtmlColors": 0,
+            "m_faceColor": {
+              "serializedVersion": 2,
+              "rgba": 4294967295
+            },
+            "m_fontSize": 4.5,
+            "m_fontSizeBase": 4.5,
+            "m_fontWeight": 400,
+            "m_enableAutoSizing": 0,
+            "m_fontSizeMin": 0,
+            "m_fontSizeMax": 0,
+            "m_fontStyle": 0,
+            "m_HorizontalAlignment": 2,
+            "m_VerticalAlignment": 512,
+            "m_textAlignment": 65535,
+            "m_characterSpacing": 0,
+            "m_characterHorizontalScale": 1,
+            "m_wordSpacing": 0,
+            "m_lineSpacing": 0,
+            "m_lineSpacingMax": 0,
+            "m_paragraphSpacing": 0,
+            "m_charWidthMaxAdj": 0,
+            "m_TextWrappingMode": 0,
+            "m_wordWrappingRatios": 0.4,
+            "m_overflowMode": 0,
+            "m_linkedTextComponent": {
+              "fileID": 0
+            },
+            "parentLinkedComponent": {
+              "fileID": 0
+            },
+            "m_enableKerning": 0,
+            "m_ActiveFontFeatures": null,
+            "m_enableExtraPadding": 0,
+            "checkPaddingRequired": 0,
+            "m_isRichText": 1,
+            "m_EmojiFallbackSupport": 1,
+            "m_parseCtrlCharacters": 1,
+            "m_isOrthographic": 0,
+            "m_isCullingEnabled": 0,
+            "m_horizontalMapping": 0,
+            "m_verticalMapping": 0,
+            "m_uvLineOffset": 0,
+            "m_geometrySortingOrder": 0,
+            "m_IsTextObjectScaleStatic": 0,
+            "m_VertexBufferAutoSizeReduction": 0,
+            "m_useMaxVisibleDescender": 1,
+            "m_pageToDisplay": 1,
+            "m_margin": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "m_isUsingLegacyAnimationComponent": 0,
+            "m_isVolumetricText": 0,
+            "_SortingLayer": 0,
+            "_SortingLayerID": 0,
+            "_SortingOrder": 0,
+            "m_hasFontAssetChanged": 0,
+            "m_renderer": {
+              "fileID": 6987807744873033000
+            },
+            "m_maskType": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fill",
+      "id": "4666536280252300731",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 4666536280252300000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0.5,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 8130305522320299000
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 4666536280252300000
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -1,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 7482667652216324000,
+              "guid": "9aa83f0ec743d4641b6b238b33b057f9",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 0.08121216,
+              "g": 0.6886792,
+              "b": 0.16552664,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 1,
+            "m_Size": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BarrierShield",
+      "id": "5750053908320118863",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 5750053908320119000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0.065,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 6.7806,
+              "y": 6.7806,
+              "z": 6.7806
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 4381992402003791400
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 5750053908320119000
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": 3,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 21300000,
+              "guid": "6aae8417710d57f42b37d7c9175e5f9b",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 0,
+            "m_Size": {
+              "x": 0.32,
+              "y": 0.32
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "HpBar",
+      "id": "5882784434087602925",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 5882784434087603000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": -1.1,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 3.126923,
+              "y": 0.46082407,
+              "z": 1.2564858
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [
+              {
+                "fileID": 5890141192704872000
+              },
+              {
+                "fileID": 8130305522320299000
+              },
+              {
+                "fileID": 8449472766610087000
+              }
+            ],
+            "m_Father": {
+              "fileID": 4381992402003791400
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Background",
+      "id": "6133496597265622503",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 6133496597265622000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 1474253321108408000
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 6133496597265622000
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -2,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 7482667652216324000,
+              "guid": "9aa83f0ec743d4641b6b238b33b057f9",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 0.6698113,
+              "g": 0.6698113,
+              "b": 0.6698113,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 1,
+            "m_Size": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "FillPivot",
+      "id": "8739827435791939771",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 8739827435791940000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": -0.5,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [
+              {
+                "fileID": 4757075896114987000
+              }
+            ],
+            "m_Father": {
+              "fileID": 1474253321108408000
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "enemy": [
+    {
+      "name": "HealthText",
+      "id": "2121383987567142472",
+      "components": [
+        {
+          "RectTransform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2121383987567142400
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 1,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 5780313907666265000
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": -0.837
+            },
+            "m_SizeDelta": {
+              "x": 2,
+              "y": 0.5
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "MeshRenderer": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2121383987567142400
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 2,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 9153716817533345000,
+                "guid": "2ef47b7ec317b4f48a5702551dab299c",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 3,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": 0,
+            "m_MaskInteraction": 0,
+            "m_AdditionalVertexStreams": {
+              "fileID": 0
+            }
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 2121383987567142400
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "9541d86e2fd84c1d9990edf0852d74ab",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Unity.TextMeshPro::TMPro.TextMeshPro",
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_RaycastTarget": 1,
+            "m_RaycastPadding": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "m_Maskable": 1,
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_text": "100/100",
+            "m_isRightToLeft": 0,
+            "m_fontAsset": {
+              "fileID": 11400000,
+              "guid": "2ef47b7ec317b4f48a5702551dab299c",
+              "type": 2
+            },
+            "m_sharedMaterial": {
+              "fileID": 9153716817533345000,
+              "guid": "2ef47b7ec317b4f48a5702551dab299c",
+              "type": 2
+            },
+            "m_fontSharedMaterials": [],
+            "m_fontMaterial": {
+              "fileID": 0
+            },
+            "m_fontMaterials": [],
+            "m_fontColor32": {
+              "serializedVersion": 2,
+              "rgba": 4294967295
+            },
+            "m_fontColor": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_enableVertexGradient": 0,
+            "m_colorMode": 3,
+            "m_fontColorGradient": {
+              "topLeft": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "topRight": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "bottomLeft": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "bottomRight": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "m_fontColorGradientPreset": {
+              "fileID": 0
+            },
+            "m_spriteAsset": {
+              "fileID": 0
+            },
+            "m_tintAllSprites": 0,
+            "m_StyleSheet": {
+              "fileID": 0
+            },
+            "m_TextStyleHashCode": -1183493901,
+            "m_overrideHtmlColors": 0,
+            "m_faceColor": {
+              "serializedVersion": 2,
+              "rgba": 4294967295
+            },
+            "m_fontSize": 4.5,
+            "m_fontSizeBase": 4.5,
+            "m_fontWeight": 400,
+            "m_enableAutoSizing": 0,
+            "m_fontSizeMin": 0,
+            "m_fontSizeMax": 0,
+            "m_fontStyle": 0,
+            "m_HorizontalAlignment": 2,
+            "m_VerticalAlignment": 512,
+            "m_textAlignment": 65535,
+            "m_characterSpacing": 0,
+            "m_characterHorizontalScale": 1,
+            "m_wordSpacing": 0,
+            "m_lineSpacing": 0,
+            "m_lineSpacingMax": 0,
+            "m_paragraphSpacing": 0,
+            "m_charWidthMaxAdj": 0,
+            "m_TextWrappingMode": 0,
+            "m_wordWrappingRatios": 0.4,
+            "m_overflowMode": 0,
+            "m_linkedTextComponent": {
+              "fileID": 0
+            },
+            "parentLinkedComponent": {
+              "fileID": 0
+            },
+            "m_enableKerning": 0,
+            "m_ActiveFontFeatures": null,
+            "m_enableExtraPadding": 0,
+            "checkPaddingRequired": 0,
+            "m_isRichText": 1,
+            "m_EmojiFallbackSupport": 1,
+            "m_parseCtrlCharacters": 1,
+            "m_isOrthographic": 0,
+            "m_isCullingEnabled": 0,
+            "m_horizontalMapping": 0,
+            "m_verticalMapping": 0,
+            "m_uvLineOffset": 0,
+            "m_geometrySortingOrder": 0,
+            "m_IsTextObjectScaleStatic": 0,
+            "m_VertexBufferAutoSizeReduction": 0,
+            "m_useMaxVisibleDescender": 1,
+            "m_pageToDisplay": 1,
+            "m_margin": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "m_isUsingLegacyAnimationComponent": 0,
+            "m_isVolumetricText": 0,
+            "_SortingLayer": 0,
+            "_SortingLayerID": 0,
+            "_SortingOrder": 0,
+            "m_hasFontAssetChanged": 0,
+            "m_renderer": {
+              "fileID": 795404314078980500
+            },
+            "m_maskType": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "id": "7799143051071772000",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071772000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 5780313907666265000
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071772000
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -5,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 21300000,
+              "guid": "9757bb5a73959fa4395d5e7db936205f",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 0,
+            "m_Size": {
+              "x": 0.64,
+              "y": 0.64
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Enemy",
+      "id": "7799143051071772623",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071773000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [
+              {
+                "fileID": 1591820579365364200
+              },
+              {
+                "fileID": 5780313907666264000
+              }
+            ],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "BoxCollider2D": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071773000
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 3,
+            "m_Density": 1,
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_IncludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_ExcludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_LayerOverridePriority": 0,
+            "m_ForceSendLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_ForceReceiveLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_ContactCaptureLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_CallbackLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_IsTrigger": 0,
+            "m_UsedByEffector": 0,
+            "m_CompositeOperation": 0,
+            "m_CompositeOrder": 0,
+            "m_Offset": {
+              "x": -0.0017376095,
+              "y": 0.003180325
+            },
+            "m_SpriteTilingProperty": {
+              "border": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 0
+              },
+              "pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "oldSize": {
+                "x": 0.16,
+                "y": 0.32
+              },
+              "newSize": {
+                "x": 0.64,
+                "y": 0.64
+              },
+              "adaptiveTilingThreshold": 0.5,
+              "drawMode": 0,
+              "adaptiveTiling": 0
+            },
+            "m_AutoTiling": 0,
+            "m_Size": {
+              "x": 0.21672305,
+              "y": 1.4212087
+            },
+            "m_EdgeRadius": 0
+          }
+        },
+        {
+          "Rigidbody2D": {
+            "serializedVersion": 5,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071773000
+            },
+            "m_BodyType": 1,
+            "m_Simulated": 1,
+            "m_UseFullKinematicContacts": 0,
+            "m_UseAutoMass": 0,
+            "m_Mass": 1,
+            "m_LinearDamping": 0,
+            "m_AngularDamping": 0.05,
+            "m_GravityScale": 0,
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_IncludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_ExcludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_Interpolate": 0,
+            "m_SleepingMode": 1,
+            "m_CollisionDetection": 0,
+            "m_Constraints": 0
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071773000
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "b8e6aabb34601454c9999159eed8b60b",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::EnemyMovement",
+            "_speed": 3,
+            "_stopDistance": 2.15
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071773000
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "0f319b744ac6a384ab0d344a855a9ab5",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::EnemyHealth"
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 7799143051071773000
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "01b3c6db0ac9acb4c8b75951de3d2da9",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::EnemyMeleeAttack",
+            "_attackCooldown": 1.5,
+            "_pauseDuration": 0.3,
+            "_backupDistance": 0.5,
+            "_backupDuration": 0.15,
+            "_lungeDistance": 1.3,
+            "_lungeDuration": 0.2
+          }
+        }
+      ]
+    }
+  ],
+  "blade": [
+    {
+      "name": "PlayerBlade",
+      "id": "4232462818726309665",
+      "components": [
+        {
+          "Transform": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 4232462818726310000
+            },
+            "serializedVersion": 2,
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.7071068,
+              "w": 0.7071068
+            },
+            "m_LocalPosition": {
+              "x": 1.5,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 6,
+              "y": 6,
+              "z": 6
+            },
+            "m_ConstrainProportionsScale": 0,
+            "m_Children": [],
+            "m_Father": {
+              "fileID": 0
+            },
+            "m_LocalEulerAnglesHint": {
+              "x": 0,
+              "y": 0,
+              "z": -90
+            }
+          }
+        },
+        {
+          "SpriteRenderer": {
+            "serializedVersion": 2,
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 4232462818726310000
+            },
+            "m_Enabled": 1,
+            "m_CastShadows": 0,
+            "m_ReceiveShadows": 0,
+            "m_DynamicOccludee": 1,
+            "m_StaticShadowCaster": 0,
+            "m_MotionVectors": 1,
+            "m_LightProbeUsage": 1,
+            "m_ReflectionProbeUsage": 1,
+            "m_RayTracingMode": 0,
+            "m_RayTraceProcedural": 0,
+            "m_RayTracingAccelStructBuildFlagsOverride": 0,
+            "m_RayTracingAccelStructBuildFlags": 1,
+            "m_SmallMeshCulling": 1,
+            "m_ForceMeshLod": -1,
+            "m_MeshLodSelectionBias": 0,
+            "m_RenderingLayerMask": 1,
+            "m_RendererPriority": 0,
+            "m_Materials": [
+              {
+                "fileID": 2100000,
+                "guid": "9dfc825aed78fcd4ba02077103263b40",
+                "type": 2
+              }
+            ],
+            "m_StaticBatchInfo": {
+              "firstSubMesh": 0,
+              "subMeshCount": 0
+            },
+            "m_StaticBatchRoot": {
+              "fileID": 0
+            },
+            "m_ProbeAnchor": {
+              "fileID": 0
+            },
+            "m_LightProbeVolumeOverride": {
+              "fileID": 0
+            },
+            "m_ScaleInLightmap": 1,
+            "m_ReceiveGI": 1,
+            "m_PreserveUVs": 0,
+            "m_IgnoreNormalsForChartDetection": 0,
+            "m_ImportantGI": 0,
+            "m_StitchLightmapSeams": 1,
+            "m_SelectedEditorRenderState": 0,
+            "m_MinimumChartSize": 4,
+            "m_AutoUVMaxDistance": 0.5,
+            "m_AutoUVMaxAngle": 89,
+            "m_LightmapParameters": {
+              "fileID": 0
+            },
+            "m_GlobalIlluminationMeshLod": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingLayer": 0,
+            "m_SortingOrder": -4,
+            "m_MaskInteraction": 0,
+            "m_Sprite": {
+              "fileID": 21300000,
+              "guid": "2c7e12d75c506684bb2d2981dcd27c11",
+              "type": 3
+            },
+            "m_Color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "m_FlipX": 0,
+            "m_FlipY": 0,
+            "m_DrawMode": 0,
+            "m_Size": {
+              "x": 0.16,
+              "y": 0.32
+            },
+            "m_AdaptiveModeThreshold": 0.5,
+            "m_SpriteTileMode": 0,
+            "m_WasSpriteAssigned": 1,
+            "m_SpriteSortPoint": 0
+          }
+        },
+        {
+          "BoxCollider2D": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 4232462818726310000
+            },
+            "m_Enabled": 1,
+            "serializedVersion": 3,
+            "m_Density": 1,
+            "m_Material": {
+              "fileID": 0
+            },
+            "m_IncludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_ExcludeLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 0
+            },
+            "m_LayerOverridePriority": 0,
+            "m_ForceSendLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_ForceReceiveLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_ContactCaptureLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_CallbackLayers": {
+              "serializedVersion": 2,
+              "m_Bits": 4294967295
+            },
+            "m_IsTrigger": 1,
+            "m_UsedByEffector": 0,
+            "m_CompositeOperation": 0,
+            "m_CompositeOrder": 0,
+            "m_Offset": {
+              "x": 0.0005381387,
+              "y": -0.004398197
+            },
+            "m_SpriteTilingProperty": {
+              "border": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 0
+              },
+              "pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "oldSize": {
+                "x": 0.16,
+                "y": 0.32
+              },
+              "newSize": {
+                "x": 0.16,
+                "y": 0.32
+              },
+              "adaptiveTilingThreshold": 0.5,
+              "drawMode": 0,
+              "adaptiveTiling": 0
+            },
+            "m_AutoTiling": 0,
+            "m_Size": {
+              "x": 0.05209535,
+              "y": 0.3018976
+            },
+            "m_EdgeRadius": 0
+          }
+        },
+        {
+          "MonoBehaviour": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 4232462818726310000
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "d4aacc746fd09964197be1eac3906915",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": "Assembly-CSharp::RotatingBlade",
+            "_rotationSpeed": 45,
+            "_orbitRadius": 2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "settings_title": "SETTINGS",
+  "dialogue_ability_1": "Guardian, now THAT is a royal display of power! You have unlocked Blade Fury. At your command, the guardian swords will spin faster. Let the Iron Swarm worry about its own iron health for a change!",
+  "dialogue_ability_2": "See the new button below my health bar? Click it — or press 1 — and unleash the fury. The power lasts only a short while, then needs time to recover. Save that whirlwind for anyone who gets a little too close to their King!",
+  "close": "CLOSE",
+  "audio_title": "AUDIO",
+  "music": "Music",
+  "sounds": "Sound effects",
+  "music_volume": "Music volume",
+  "sound_volume": "Effects volume",
+  "display_title": "DISPLAY & LANGUAGE",
+  "language": "Language",
+  "fullscreen": "Fullscreen",
+  "progress_title": "PROGRESS",
+  "save": "Save game",
+  "save_hint": "Autosaved every 15 seconds.",
+  "new_game": "New game",
+  "restart_confirm": "Start again? Current progress will be replaced. Settings will be kept.",
+  "confirm": "Start again",
+  "cancel": "Cancel",
+  "preferences_unsaved": "Settings applied, but the browser could not save them.",
+  "game_speed": "Game speed"
+}

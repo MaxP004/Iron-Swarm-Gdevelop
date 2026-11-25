@@ -1,0 +1,179 @@
+{
+  "firstLayout": "IronSwarm",
+  "previewLayout": "IronSwarm",
+  "gdVersion": {
+    "build": 287,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.274",
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "none",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.ironswarm.game",
+    "pixelsRounding": true,
+    "projectUuid": "0fa843bf-d4f6-4cea-8d74-809c28e00e00",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.2.0",
+    "name": "Iron Swarm",
+    "description": "Защищайте короля от оживших клинков. 100 волн, постоянные перки и бесконечный режим.",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 1315870,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 0,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "disablePreload": true,
+        "file": "resources/iron-swarm-package.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "IronSwarmPackage",
+        "userAdded": true
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 30,
+      "disableInputWhenNotFocused": false,
+      "mangledName": "IronSwarm",
+      "name": "IronSwarm",
+      "r": 20,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "Iron Swarm",
+      "v": 20,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 112,
+            "g": 84,
+            "r": 44,
+            "textB": 255,
+            "textG": 255,
+            "textR": 255
+          },
+          "comment": "Iron Swarm: исходная игра TypeScript/PixiJS. Запустите предпросмотр. Код запуска ниже, исходники в src/. После правок: npm run build:gdevelop. Ресурс IronSwarmPackage обязателен для экспорта."
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "// Runs as a GDevelop JavaScript event. The original game owns its rendering,\n// controls, audio and saves inside a same-origin document.\n// The package is downloaded here (not preloaded by GDevelop) so the player\n// sees real byte progress instead of a bar that waits for one large file.\nif (!runtimeScene.__ironSwarmHost) {\n  const game = runtimeScene.getGame();\n  const expectedBytes = 3899954;\n  const stallSeconds = 15;\n  const startSeconds = 30;\n\n  const russian = (function () {\n    try {\n      const saved = JSON.parse(localStorage.getItem('iron-swarm.preferences.v1') || 'null');\n      if (saved && (saved.language === 'ru' || saved.language === 'en')) return saved.language === 'ru';\n    } catch (e) {}\n    return /^ru\\b/i.test(navigator.language || '');\n  })();\n  const text = russian\n    ? {\n        loading: 'Загрузка игры',\n        slow: 'Загрузка идёт дольше обычного. Проверьте подключение к интернету.',\n        failed: 'Не удалось загрузить игру. Проверьте подключение и попробуйте снова.',\n        retry: 'Повторить',\n        notStarted: 'Игра не запустилась. Обновите страницу или включите аппаратное ускорение в браузере.',\n        reload: 'Обновить страницу',\n        hide: 'Скрыть',\n        mb: 'МБ',\n      }\n    : {\n        loading: 'Loading the game',\n        slow: 'Loading is taking longer than usual. Please check your connection.',\n        failed: 'The game could not be loaded. Check your connection and try again.',\n        retry: 'Retry',\n        notStarted: 'The game did not start. Refresh the page or enable hardware acceleration in your browser.',\n        reload: 'Refresh page',\n        hide: 'Hide',\n        mb: 'MB',\n      };\n\n  const host = document.createElement('div');\n  host.id = 'iron-swarm-host';\n  host.style.cssText = 'position:fixed;inset:0;z-index:100;background:#14141e;color:#dcdcf0;display:flex;align-items:center;justify-content:center;font:20px monospace';\n  document.body.appendChild(host);\n  runtimeScene.__ironSwarmHost = host;\n\n  const card = document.createElement('div');\n  card.style.cssText = 'width:min(560px,86vw);text-align:center';\n  card.innerHTML =\n    '<div style=\"font-size:32px;letter-spacing:4px;color:#e6c76c;margin-bottom:24px\">IRON SWARM</div>' +\n    '<div data-part=\"title\" style=\"margin-bottom:14px\"></div>' +\n    '<div style=\"height:20px;border:3px solid #66667e;background:#282839;padding:2px\">' +\n    '<div data-part=\"bar\" style=\"height:100%;width:0;background:#e6c76c;transition:width .2s\"></div></div>' +\n    '<div data-part=\"status\" style=\"margin-top:12px;font-size:16px;color:#a2a2bb;min-height:20px\"></div>' +\n    '<div data-part=\"note\" style=\"margin-top:16px;font-size:16px;line-height:1.4;color:#ffe38c\"></div>' +\n    '<div data-part=\"actions\" style=\"margin-top:16px\"></div>';\n  const part = function (name) { return card.querySelector('[data-part=\"' + name + '\"]'); };\n  const button = function (label, action) {\n    const b = document.createElement('button');\n    b.textContent = label;\n    b.style.cssText = 'font:18px monospace;padding:10px 22px;margin:0 6px;background:#282839;color:#dcdcf0;border:3px solid #66667e;cursor:pointer';\n    b.onclick = action;\n    return b;\n  };\n\n  let request = null;\n  let stallTimer = null;\n  let startTimer = null;\n  const clearTimers = function () {\n    clearTimeout(stallTimer);\n    clearTimeout(startTimer);\n  };\n\n  // Clean up the independent rendering/audio context when leaving this scene.\n  if (!gdjs.__ironSwarmCleanupRegistered) {\n    gdjs.__ironSwarmCleanupRegistered = true;\n    gdjs.registerRuntimeSceneUnloadedCallback(function (scene) {\n      if (scene.__ironSwarmHost) {\n        if (scene.__ironSwarmCleanup) scene.__ironSwarmCleanup();\n        scene.__ironSwarmHost.remove();\n        delete scene.__ironSwarmHost;\n      }\n    });\n  }\n\n  const progress = function (share, bytes) {\n    part('bar').style.width = Math.round(share * 100) + '%';\n    part('status').textContent =\n      Math.round(share * 100) + '% · ' + (bytes / 1048576).toFixed(1) + ' / ' + (expectedBytes / 1048576).toFixed(1) + ' ' + text.mb;\n  };\n  const armStall = function () {\n    clearTimeout(stallTimer);\n    stallTimer = setTimeout(function () {\n      part('note').textContent = text.slow;\n      part('actions').replaceChildren(button(text.retry, load));\n    }, stallSeconds * 1000);\n  };\n  const fail = function (error) {\n    console.error('Iron Swarm package could not be loaded', error);\n    clearTimers();\n    part('note').textContent = text.failed;\n    part('actions').replaceChildren(button(text.retry, load));\n  };\n\n  const onMessage = function (event) {\n    const frame = document.getElementById('iron-swarm-frame');\n    if (!frame || event.source !== frame.contentWindow || !event.data) return;\n    if (event.data.type === 'iron-swarm:ready' || event.data.type === 'iron-swarm:failed') {\n      clearTimeout(startTimer);\n      const notice = document.getElementById('iron-swarm-notice');\n      if (notice) notice.remove();\n    }\n  };\n  window.addEventListener('message', onMessage);\n  runtimeScene.__ironSwarmCleanup = function () {\n    clearTimers();\n    if (request) request.abort();\n    window.removeEventListener('message', onMessage);\n  };\n\n  const start = function (payload) {\n    clearTimers();\n    const frame = document.createElement('iframe');\n    frame.id = 'iron-swarm-frame';\n    frame.title = 'Iron Swarm';\n    frame.allow = 'autoplay; fullscreen';\n    frame.allowFullscreen = true;\n    frame.style.cssText = 'display:block;width:100%;height:100%;border:0;background:#000';\n    frame.onload = function () { frame.contentWindow.focus(); };\n    frame.srcdoc = payload.html;\n    host.replaceChildren(frame);\n    // If the game never reports that it started, offer a way out instead of an endless screen.\n    startTimer = setTimeout(function () {\n      if (!host.isConnected) return;\n      const notice = document.createElement('div');\n      notice.id = 'iron-swarm-notice';\n      notice.style.cssText = 'position:absolute;left:50%;bottom:24px;transform:translateX(-50%);width:min(640px,90vw);padding:16px;background:#282839;border:3px solid #e6c76c;text-align:center;font:16px/1.4 monospace;color:#dcdcf0';\n      notice.textContent = text.notStarted;\n      const actions = document.createElement('div');\n      actions.style.marginTop = '12px';\n      actions.append(\n        button(text.reload, function () { location.reload(); }),\n        button(text.hide, function () { notice.remove(); }),\n      );\n      notice.appendChild(actions);\n      host.appendChild(notice);\n    }, startSeconds * 1000);\n  };\n\n  const accept = function (payload) {\n    if (!host.isConnected) return;\n    if (!payload || typeof payload.html !== 'string') return fail(new Error('Invalid package'));\n    progress(1, expectedBytes);\n    start(payload);\n  };\n\n  // Older engines without these loader methods fall back to the engine's own JSON loading.\n  const legacyLoad = function () {\n    part('status').textContent = '…';\n    game.getJsonManager().loadJson('IronSwarmPackage', function (error, payload) {\n      if (!host.isConnected) return;\n      if (error) return fail(error);\n      accept(payload);\n    });\n  };\n\n  const load = function () {\n    clearTimers();\n    if (request) request.abort();\n    request = null;\n    host.replaceChildren(card);\n    part('title').textContent = text.loading;\n    part('note').textContent = '';\n    part('actions').replaceChildren();\n    progress(0, 0);\n    armStall();\n    const loader = game.getResourceLoader && game.getResourceLoader();\n    const resource = loader && loader.getResource && loader.getResource('IronSwarmPackage');\n    if (!resource || !loader.getFullUrl) return legacyLoad();\n    const xhr = new XMLHttpRequest();\n    request = xhr;\n    xhr.responseType = 'json';\n    xhr.withCredentials = loader.checkIfCredentialsRequired ? loader.checkIfCredentialsRequired(resource.file) : false;\n    xhr.open('GET', loader.getFullUrl(resource.file));\n    xhr.onprogress = function (event) {\n      armStall();\n      part('note').textContent = '';\n      part('actions').replaceChildren();\n      const total = event.lengthComputable && event.total > 0 ? event.total : expectedBytes;\n      progress(Math.min(0.99, event.loaded / total), Math.min(event.loaded, expectedBytes));\n    };\n    xhr.onload = function () {\n      if (request !== xhr) return;\n      request = null;\n      if (xhr.status !== 200 && xhr.status !== 0) return fail(new Error('HTTP ' + xhr.status));\n      accept(xhr.response);\n    };\n    xhr.onerror = function () { if (request === xhr) { request = null; fail(new Error('Network error')); } };\n    xhr.send();\n  };\n  load();\n}\n",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "IronSwarm"
+      }
+    ]
+  },
+  "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT"
+  }
+}

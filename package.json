@@ -1,0 +1,31 @@
+{
+  "name": "iron-swarm-gdevelop",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "format": "prettier --write src scripts tests vite.config.ts",
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/verify-build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "extract": "node scripts/extract-unity.mjs",
+    "build:gdevelop": "tsc --noEmit && node scripts/build-gdevelop.mjs",
+    "export:gdevelop": "node scripts/export-gdevelop.cjs",
+    "test:browser": "node scripts/check-browser.mjs",
+    "preview:gdevelop": "node scripts/preview-gdevelop.mjs",
+    "test:browser:dev": "node scripts/check-browser.mjs --dev"
+  },
+  "dependencies": {
+    "pixi.js": "^8.22.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "yaml": "^2.9.1"
+  }
+}

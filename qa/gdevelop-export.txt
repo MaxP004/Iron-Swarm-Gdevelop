@@ -1,0 +1,12 @@
+
+> iron-swarm-gdevelop@1.1.0 export:gdevelop
+> node scripts/export-gdevelop.cjs
+
+libGD.js based on GDevelop 5.6.274-0
+Initializing GDJS platform...
+* Loading builtin extensions... done.
+* Loading other extensions... done.
+Platform initialization ended.
+Copying all resources from D:/GdevelopProjects/Iron Swarm to D:/GdevelopProjects/Iron Swarm/export...
+STATUS:   Scene 'IronSwarm': 1.004899978637695ms, 2 events, 2 KB generated code
+GDevelop HTML5 export: D:\GdevelopProjects\Iron Swarm\export
